@@ -28,11 +28,11 @@ public class MyClass {
 			}
 			//System.out.println(a + "   " +b);
 			System.out.printf(a,c[i-1]);
-            if (!(i == c.length/2 + 1)) {
-            	System.out.printf(b,c[i-1]);
-            }
-            System.out.println();
-        }
-	sc.close();
-  }
+           		if (!(i == c.length/2 + 1)) {
+            			System.out.printf(b,c[i-1]);
+            		}
+            		System.out.println();
+        	}
+		sc.close();
+  	}
 }
