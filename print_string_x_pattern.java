@@ -15,16 +15,16 @@ public class MyClass {
 			String b = "";
 			if (i <= (c.length/2) + 1) {
 				a = "%" + Integer.toString(i*5) +"c";
-			    b = "%" + Integer.toString(j*5) +"c";
+			    	b = "%" + Integer.toString(j*5) +"c";
 			}
 			else {
 				if(!(i == (c.length/2) + 2)) {
-			    	z = z+2;
+			    		z = z+2;
 				}
-			    x = i-z;
-			    j = j+4;
-			    a = "%" + Integer.toString((x)*5) +"c";
-			    b = "%" + Integer.toString((j)*5) +"c";
+				x = i-z;
+			    	j = j+4;
+			    	a = "%" + Integer.toString((x)*5) +"c";
+			    	b = "%" + Integer.toString((j)*5) +"c";
 			}
 			//System.out.println(a + "   " +b);
 			System.out.printf(a,c[i-1]);
